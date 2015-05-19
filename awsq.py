@@ -2,6 +2,7 @@
 #
 # Query AWS nodes and print out results
 # Copyright (C) 2014 Daniel Lawrence
+# Copyright (C) 2015 Andrew Khoury (drew)
 #
 # This program is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by the
