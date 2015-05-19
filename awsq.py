@@ -223,11 +223,12 @@ for r in ec2['Reservations']:
 
     # Grab all the tags
     tags = {}
-    for t in instance['Tags']:
-        k = t['Key']
-        v = t['Value']
-        tags[k] = v
-    d.update(tags)
+    if 'Tags' in instance:
+        for t in instance['Tags']:
+            k = t['Key']
+            v = t['Value']
+            tags[k] = v
+        d.update(tags)
 
     # Work on if we have a name for the instance.
     if 'Name' not in d:
