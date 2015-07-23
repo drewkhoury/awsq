@@ -1,3 +1,5 @@
+https://travis-ci.org/drewkhoury/awsq.svg?branch=master
+
 # awsq
 
 awsq provides a way to query and filter data from `aws --output json ec2 describe-instances`. It expects aws cli is installed and configured. You can supply `--profile` just like with aws, or omit it and use the default aws profile. Remember to set your region in aws.
