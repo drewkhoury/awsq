@@ -1,4 +1,4 @@
-https://travis-ci.org/drewkhoury/awsq.svg?branch=master
+(https://travis-ci.org/drewkhoury/awsq.svg?branch=master)
 
 # awsq
 
